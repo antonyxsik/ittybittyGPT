@@ -36,7 +36,8 @@ class TextDataset(Dataset):
 		return len(self.examples)
 	
 	def __getitem__(self, i: int) -> Float[torch.Tensor, "n_ctx"]:
-		return torch.tensor(self.examples[i], dtype=torch.long, device = 'cpu')
+		textdataset = torch.tensor(self.examples[i], dtype=torch.long, device = 'cpu')
+		return textdataset
 	
 	def example_lengths(self) -> Counter[int]:
 		return Counter(len(ex) for ex in self.examples)
