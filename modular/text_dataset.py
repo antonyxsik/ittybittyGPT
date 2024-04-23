@@ -26,7 +26,7 @@ class TextDataset(Dataset):
 
 		# split the text into examples of length n_context
 		# this means that text will often start in the middle of a sentence
-		# in reality, we might want to do this a bit smarter
+		# in reality, this could be done more intelligently 
 		self.examples: list[list[int]] = [
 			tokenized_text[i:i+n_context] 
 			for i in range(0, len(tokenized_text), n_context)

@@ -7,6 +7,7 @@ import torch.nn.functional as F
 from jaxtyping import Int, Float
 import transformers
 
+# these all allow for a nice way to save the model and load it back up
 from muutils.json_serialize import SerializableDataclass, serializable_dataclass, serializable_field
 from zanj.torchutil import ConfiguredModel, set_config_class
 from zanj import ZANJ
