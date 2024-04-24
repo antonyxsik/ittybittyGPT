@@ -5,6 +5,7 @@ This repository was creared as an exercise to gain a deeper understanding LLMs, 
 We code up our own "itty bitty GPT", and train it on a chunk of the TinyStories dataset. 
 
 This is far from the most effective implementation, but I think it is quite readable and easy to follow. 
+
 ------
 
 The `tutorial.py` notebook houses the model, data set creation, training, and prompting, all in one big notebook. Looking through it sequentially allows one to start at the attention head mechanism and end with prompting a model that they trained on their device. 
