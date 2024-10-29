@@ -1,6 +1,6 @@
 # ittybittyGPT
 
-This repository was created as an exercise to gain a deeper understanding LLMs, transformers, and more concretely, the attention mechanism (which is written here from scratch). 
+This repository was created as an exercise to gain a deeper understanding LLMs, transformers, and more concretely, the attention mechanism (which is written here from scratch). This exercised is inspired by an excellent [LLM interpretability course](https://github.com/mines-opt-ml/decoding-gpt) that I sat in on. 
 
 We code up our own "itty bitty GPT", and train it on a chunk of the TinyStories dataset. 
 
